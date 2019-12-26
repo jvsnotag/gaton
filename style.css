@@ -1,0 +1,66 @@
+html, body
+{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-image: linear-gradient(lightblue, blue);
+}
+
+.wrapper
+{
+    background-color: lightblue;
+    max-width: 75%;
+    display: flex;
+    flex-direction: row;
+    height: 75%;
+}
+
+.left, .center, .right
+{
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    margin: 2px;
+    max-width: 50%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bio
+{
+    padding: 12px;
+}
+
+.profile-picture
+{
+    border-radius: 25%;
+}
+
+.social-links a:hover
+{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.social-links
+{
+    list-style: none;
+    padding-left: 0px;
+}
+
+.social-links li
+{
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.social-links a
+{
+    text-decoration: none;
+    padding: 4px;
+}
